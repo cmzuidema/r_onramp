@@ -302,9 +302,7 @@ The Files tab of the Viewer pane is useful for file navigation and management.
 You can navigate to your files and move, copy, rename, and delete them. You can
 create new folders. 
 
-In RStudio on Plasmid you will also upload and download files using this tab.
-
-The home (~) folder for RStudio on Plasmid is your DEOHS H:// drive
+In RStudio on posit Cloud you will also upload and download files using this tab.
 
 The three-dot (...) button on the Files tab prompts for a custom file path.
 
