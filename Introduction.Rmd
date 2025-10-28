@@ -22,12 +22,14 @@ opts_chunk$set(tidy=FALSE, cache=TRUE, echo=TRUE, message=FALSE)
 
 These materials (including this document) are freely available on GitHub:
 
-https://github.com/deohs/r_onramp
+https://github.com/cmzuidema/r_onramp 
 
-Feel free to download a copy or even import the repository into RStudio.
+and have been forked from the [original repository](https://github.com/deohs/r_onramp).
+
+You can download a copy or import the repository into RStudio.
 
 - File ->  New Project -> Version Control -> Git
-- Repository URL: https://github.com/deohs/r_onramp.git
+- Repository URL: https://github.com/cmzuidema/r_onramp.git
 - (Create Project)
 
 Note: This procedure requires that [Git](https://git-scm.com/) is installed on 
@@ -95,23 +97,6 @@ be covering the other alternatives.
 
 ## Ways to use RStudio
 
-### RStudio Server accessed through a web browser
-
-* Easier to learn and teach on because it's centrally managed by IT.
-* SPH runs an RStudio Server on "rstudio.sph" for use by all SPH departments.
-   - Link: [https://rstudio.sph.washington.edu](https://rstudio.sph.washington.edu)
-   - Free for SPH affiliates (students, staff, faculty, postdocs, etc.) to use. 
-   - Requires UW NetID.
-* DEOHS runs an RStudio Server on "Plasmid" for use by DEOHS.
-   - Link: [https://plasmid.deohs.washington.edu](https://plasmid.deohs.washington.edu)
-   - Free for DEOHS affiliates (students, staff, faculty, postdocs, etc.) to use. 
-   - Requires UW NetID and DEOHS account.
-   - Access directly from UW Campus or remotely through [Husky OnNet VPN](https://itconnect.uw.edu/connect/uw-networks/about-husky-onnet/).
-   - Easily access your departmental storage (i.e., network "drives").
-* This "onramp" is geared towards using RStudio Server, but any RStudio will work.
-
-## Ways to use RStudio
-
 ### posit Cloud
 
 [posit Cloud](https://posit.cloud/) provides an internet-based option to run Rstudio: [https://posit.cloud/](https://posit.cloud/). 
@@ -130,23 +115,14 @@ and has paid subscription upgrade.
 
 ### Download and run locally
 
-* The RStudio Desktop application is available for free on the [internet](https://posit.co/download/rstudio-desktop/).
-* We will not focus on local installation or use during this introductory onramp,
-but some instructions are at the end of this presentation.
+The RStudio Desktop application is available for free on from posit. Visit the [posit website](https://posit.co/download/rstudio-desktop/) to download and install:
 
-## Accessing the DEOHS Plasmid Server (from off-campus)
+1. [**_R_**](https://cran.rstudio.com/) 
+2. [**_RStudio Desktop_**](https://posit.co/download/rstudio-desktop/)
 
-* This option requires a DEOHS departmental computing account.
-* First, make sure [Husky OnNet VPN](https://itconnect.uw.edu/connect/uw-networks/about-husky-onnet/) is installed on your computer.
-* Next, launch the VPN app ("Big-IP Edge Client") and sign into the UW network.
+Run the installers (usually by double-clicking on the installer's icon). Click through the installer's prompts accordingly. The defaults are usually fine.
 
-![](images/big_ip_edge_client.png)
-
-## Login to the DEOHS Plasmid Server
-
-* Next (whether on-campus or not) use this link to sign into DEOHS Plasmid: [https://plasmid.deohs.washington.edu](https://plasmid.deohs.washington.edu)
-* If you see a UW Weblogin prompt, log in using your UW NetID and UW password
-* At the RStudio Server login screen, use your UW NetID and DEOHS password
+You may remove the installers when you have confirmed that RStudio is installed correctly and launches without error.
 
 ## How to use RStudio
 
@@ -338,22 +314,3 @@ RStudio offers a "Project" feature to make working with files easier (more on th
 
 ```{r child = 'images/questions.html'}
 ```
-
-
-## How to install R and RStudio Desktop
-
-We will not be spending time on local installations of R and RStudio during this introductory onramp. These instructions are here for reference if needed:
-
-1. [Download](https://cran.r-project.org/banner.shtml) the latest
-   **_installer_** version of **_R_** available for your operating system.
-     - Run the installer (usually by double-clicking on the installer's icon).
-     - Click through the installer's prompts accordingly. The defaults are       
-       usually fine.
-2. [Download](https://posit.co/download/rstudio-desktop/) the latest
-   **_installer_** version of **_RStudio Desktop_** available for your 
-   operating system.
-     - Run the installer (usually by double-clicking on the installer's icon).
-     - Click through the installer's prompts accordingly. The defaults are       
-       usually fine.
-3. You may remove the installers when you have confirmed that RStudio is 
-   installed correctly and launches without error.
