@@ -1,14 +1,14 @@
 # R onramp
 
-Tutorial for R onramp.
+This onramp provides brief tutorials on the basics of R and RStudio.
 
 Topics: 
 
 1. [Introduction to R and RStudio](Introduction.md)
-   - signing in
+   - how to use R
    - tour of panes
    - file management
-2. [Language Basics](r_data_types_language_basics.md)
+2. [R Language Basics](r_data_types_language_basics.md)
    - objects
    - data types & classes
    - basic operations
